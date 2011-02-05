@@ -74,6 +74,54 @@ Or create a new project:
     <th colspan="4">Banners &amp; Buttons</th>
   </tr>
   <tr>
+    <td>Full Banner</td>
+    <td><code>+full-banner</code></td>
+    <td>468x60</td>
+    <td>7.8</td>
+  </tr>
+  <tr>
+    <td>Half Banner</td>
+    <td><code>+half-banner</code></td>
+    <td>234x60</td>
+    <td>3.9</td>
+  </tr>
+  <tr>
+    <td>Vertical Banner</td>
+    <td><code>+vertical-banner</code></td>
+    <td>120x240</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Micro Bar</td>
+    <td><code>+micro-bar</code></td>
+    <td>88x31</td>
+    <td>2.84</td>
+  </tr>
+  <tr>
+    <td>Button 1</td>
+    <td><code>+button-one</code></td>
+    <td>120x90</td>
+    <td>1.33</td>
+  </tr>
+  <tr>
+    <td>Button 2</td>
+    <td><code>+button-two</code></td>
+    <td>120x60</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Square Button</td>
+    <td><code>+square-button</code></td>
+    <td>125x125</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Leaderboard</td>
+    <td><code>+button-two</code></td>
+    <td>728x90</td>
+    <td>8.09</td>
+  </tr>
+  <tr>
     <th colspan="4">Skyscrapers</th>
   </tr>
   <tr>
