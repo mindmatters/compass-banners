@@ -1,0 +1,78 @@
+// http://en.wikipedia.org/wiki/Web_banner#Standard_sizes
+
+=ad-dimension($width, $height)
+  width: $width
+  height: $height
+  &.placeholder
+    $placeholder-padding: 10px
+    $placeholder-background-color: #ccc
+    width: $width - (2 * $placeholder-padding)
+    height: $height - (2 * $placeholder-padding)
+    padding: $placeholder-padding
+    background-color: $placeholder-background-color
+
+///////////////////////////
+// Rectangles and Pop-Ups
+///////////////////////////
+
+=medium-rectangle
+  +ad-dimension(300px, 250px)
+
+=square-pop-up
+  +ad-dimension(250px, 250px)
+
+=vertical-rectangle
+  +ad-dimension(240px, 400px)
+
+=large-rectangle
+  +ad-dimension(336px, 280px)
+
+=rectangle
+  +ad-dimension(180px, 150px)
+
+=three-one-rectangle
+  +ad-dimension(300px, 100px)
+
+=pop-under
+  +ad-dimension(720px, 300px)
+
+////////////////////////
+// Banners and Buttons
+////////////////////////
+
+=full-banner
+  +ad-dimension(468px, 60px)
+
+=half-banner
+  +ad-dimension(234px, 60px)
+
+=micro-bar
+  +ad-dimension(88px, 31px)
+
+=button-one
+  +ad-dimension(120px, 90px)
+
+=button-two
+  +ad-dimension(120px, 60px)
+
+=vertical-banner
+  +ad-dimension(120px, 240px)
+
+=square-button
+  +ad-dimension(125px, 125px)
+
+=leaderboard
+  +ad-dimension(728px, 90px)
+
+////////////////
+// Skyscrapers
+////////////////
+
+=wide-skyscraper
+  +ad-dimension(160px, 600px)
+
+=skyscraper
+  +ad-dimension(120px, 600px)
+
+=half-page
+  +ad-dimension(300px, 600px)
