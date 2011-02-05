@@ -117,7 +117,7 @@ Or create a new project:
   </tr>
   <tr>
     <td>Leaderboard</td>
-    <td><code>+button-two</code></td>
+    <td><code>+leaderboard</code></td>
     <td>728x90</td>
     <td>8.09</td>
   </tr>
