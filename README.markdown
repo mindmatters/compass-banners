@@ -20,9 +20,9 @@ Or create a new project:
 
 <table>
   <tr>
-    <th>Banner</th>
+    <th>Name</th>
     <th>Mixin</th>
-    <th>Dimensions</th>
+    <th>Dimensions (px)</th>
     <th>Aspect Ratio</th>
   </tr>
   <tr>
@@ -70,9 +70,33 @@ Or create a new project:
     <td>720x300</td>
     <td>2.4</td>
   </tr>
+  <tr>
+    <th colspan="4">Banners &amp; Buttons</th>
+  </tr>
+  <tr>
+    <th colspan="4">Skyscrapers</th>
+  </tr>
+  <tr>
+    <td>Skyscraper</td>
+    <td><code>+skyscraper</code></td>
+    <td>120x600</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Wide Skyscraper</td>
+    <td><code>+wide-skyscraper</code></td>
+    <td>160x600</td>
+    <td>3.75</td>
+  </tr>
+  <tr>
+    <td>Half Page Ad</td>
+    <td><code>+half-page-ad</code></td>
+    <td>300x600</td>
+    <td>2</td>
+  </tr>
 </table>
 
 ## Authors ##
 
-[Sven Steinheißer](https://github.com/rockdog)</br>
+[Sven Steinheißer](https://github.com/rockdog)<br>
 [Tobias Adam](https://github.com/tow8ie)
